@@ -8835,8 +8835,16 @@ textarea.form-control {
       margin: 0 10px;
       opacity: .5; }
 
+.project-button {
+display: flex;
+justify-content: flex-end;
+}
+
+.list {
+  padding-bottom: 10px;
+}
+
 .tagcloud a {
-  text-transform: uppercase;
   display: inline-block;
   padding: 4px 10px;
   margin-bottom: 7px;
@@ -8848,7 +8856,6 @@ textarea.form-control {
   .tagcloud a:hover {
     border: 1px solid #000; }
     .tagcloud p {
-      text-transform: uppercase;
       display: inline-block;
       padding: 4px 10px;
       margin-bottom: 7px;
@@ -8859,14 +8866,32 @@ textarea.form-control {
       font-size: 13px;
       font-weight: bold; }
 
+
 .tag-red{
   color: #ffffff !important;
   background: #eb2e2e !important;
 }
+.tag-yellow {
+  color: #ffffff !important;
+  background: #ebc82e !important;
+}
+.tag-blue{
+  color: #ffffff !important;
+  background: #356A97 !important;
+}
+
+.tag-react {
+  color: #ffffff !important;
+  background:     #24D6F6  !important;
+}
+.tag-css-blue {
+  color: #ffffff !important;
+  background:   #379AD5  !important;
+}
 
 .tag-blue-light{
   color: #ffffff !important;
-  background: #36b5ff !important;
+  background: #31648C !important;
 }
 
 .tag-purple{
@@ -8886,12 +8911,17 @@ textarea.form-control {
 
 .tag-orange{
   color: #ffffff !important;
-  background: #ffac3f !important;
+  background: #E54D26 !important;
+}
+
+.tag-light-green{
+  color: #ffffff !important;
+  background: #6FB551 !important;
 }
 
 .tag-green{
   color: #ffffff !important;
-  background: #33be62 !important;
+  background: #185c2f !important;
 }
 
 .tag-jam{
