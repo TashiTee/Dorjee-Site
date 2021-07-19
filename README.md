@@ -1,2 +1,2 @@
-# Ethan_Truong
+# Dorjee Tenzin
 My personal web portfolio
